@@ -8,12 +8,10 @@
 
 namespace AppBundle\Controller;
 
-use AppBundle\AppBundle;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
+
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use AppBundle\Entity\Product;
-use Symfony\Component\BrowserKit\Request;
 
 
 class CarteController extends Controller
